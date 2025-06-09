@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  Global styles and base configurations can be added here if necessary,
+  but it's generally recommended to leverage Tailwind's utility classes
+  and theme customization for most styling needs.
+
+  Ensure this file primarily contains the Tailwind directives to avoid
+  unintentional overrides of Tailwind's default styling.
+*/
+
+body {
+  font-family: "Inter", sans-serif; /* Example of a base font, ensure it's imported or available */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
